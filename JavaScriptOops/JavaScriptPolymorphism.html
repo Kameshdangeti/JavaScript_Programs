@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymorphism Method</title>
+    <script>  
+        class A  
+          {  
+             display()  
+            {  
+              document.writeln("A is invoked<br>");  
+            }  
+          }  
+        class B extends A  
+          {  
+            display()  
+            {  
+              document.writeln("B is invoked");  
+            }  
+          }  
+          
+        var a=[new A(), new B()]  
+        a.forEach(function(msg)  
+        {  
+        msg.display();  
+        });  
+        </script>  
+</head>
+<body>
+    
+</body>
+</html>

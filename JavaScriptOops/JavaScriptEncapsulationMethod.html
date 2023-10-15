@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encapsulation</title>
+    <script>  
+        class Student  
+          {  
+            constructor()  
+            {  
+               var name;  
+               var marks;  
+            }  
+            getName()  
+            {  
+              return this.name;      
+            }  
+            setName(name)  
+            {  
+              this.name=name;  
+            }  
+                
+            getMarks()  
+            {  
+                return this.marks;  
+            }  
+            setMarks(marks)  
+            {  
+              this.marks=marks;  
+            }  
+          
+            }  
+            var stud=new Student();  
+             stud.setName("Kamesh");  
+             stud.setMarks(85);  
+             document.writeln(stud.getName()+" "+stud.getMarks());  
+        </script>  
+</head>
+<body>
+    
+</body>
+</html>
