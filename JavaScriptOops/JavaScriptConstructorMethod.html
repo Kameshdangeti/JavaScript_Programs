@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor method</title>
+    <script>  
+        class CompanyName  
+        {  
+          constructor()  
+          {  
+            this.company="Javatpoint";  
+          }  
+        }  
+        class Employee extends CompanyName 
+        {  
+          constructor(id,name) 
+          {  
+           super();  
+            this.id=id;  
+            this.name=name;  
+          }   
+        }     
+        var emp = new Employee(1,"Kamesh");  
+        document.writeln(emp.id+" "+emp.name+" "+emp.company);  
+    </script>  
+</head>
+<body>
+    
+</body>
+</html>
