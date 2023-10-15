@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaring the class</title>
+    <script>  
+        //Declaring class  
+        class Employee  
+          {  
+        //Initializing an object  
+            constructor(id,name)  
+            {  
+              this.id=id;  
+              this.name=name;  
+            }  
+        //Declaring method  
+            detail()  
+            {  
+              document.writeln(this.id+" "+this.name+"<br>")  
+            }  
+          }  
+        //passing object to a variable   
+        var e1=new Employee(101,"Kamesh");  
+        var e2=new Employee(102,"Lucky");  
+        e1.detail(); //calling method  
+        e2.detail();  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
