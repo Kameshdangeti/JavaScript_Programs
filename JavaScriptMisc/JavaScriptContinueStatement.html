@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continue Statement</title>
+</head>
+<body>
+    <h1> Example of the continue statement in JavaScript</h1>  
+    <h3> Here, you can see that "a == 4" is skipped. </h3>   
+    <p id = "para">   
+          
+    </p>   
+    <script>   
+    var res = "";  
+var a;  
+for (a = 1; a <=7; a++) {  
+  if (a == 4) {  
+    continue;  
+  }  
+  res += "The value of a is : " + a + "<br>";  
+}  
+document.getElementById("para").innerHTML = res;  
+    </script>   
+</body>
+</html>
