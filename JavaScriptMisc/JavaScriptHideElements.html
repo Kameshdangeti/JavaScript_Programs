@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide Elements</title>
+</head>
+<body>
+    <h1>  
+        Welcome to the javaTpoint.com  
+        </h1>  
+          
+        <h2>  
+        Example of the JavaScript's style.display property  
+        </h2>  
+          
+        <div id = "div" style = "background-color: yellow; font-size: 25px; color: red; border: 2px solid red;">  
+        This is the div element.  
+        </div>  
+        <p id = "p"> This is a paragraph element. </p>  
+        <button onclick = "fun()" id = "btn">  
+        Click me!  
+        </button>  
+          
+        <script>  
+        function fun() {  
+        document.getElementById("div").style.display = "none";  
+        document.getElementById("p").style.display = "none";  
+        }  
+        </script>  
+</body>
+</html>
