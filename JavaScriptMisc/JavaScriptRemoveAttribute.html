@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove attribute</title>
+        <style>  
+        .jtp {  
+        color: red;  
+        background-color: yellow;  
+        }  
+        </style>  
+</head>
+<body>
+    <h1>  
+        Welcome to the javaTpoint.com  
+        </h1>  
+          
+        <h2>  
+        Example of the removeAttribute() Method  
+        </h2>  
+          
+        <p id = "para" class = "jtp">  
+        This is a paragraph element.  
+        </p>  
+        <p id = "para1" class = "jtp">  
+        This is second paragraph element.  
+        </p>  
+          
+          
+        <button onclick = "fun()">  
+        Click me!  
+        </button>  
+          
+        <script>  
+        function fun() {  
+        document.getElementById("para").removeAttribute("class");  
+        document.getElementById("para1").removeAttribute("class");  
+        }  
+        </script>
+</body>
+</html>
